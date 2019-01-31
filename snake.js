@@ -50,7 +50,9 @@ const snake = {
 
       if (food.getPiece(newHeadPosX, newHeadPosY)) {
         food.deletePiece(newHeadPosX, newHeadPosY);
-        speed -= 5;
+        if (speed > 50) {
+          speed *= 0.95;
+        }
         snake.tail.push(endOfTail);
       }
 

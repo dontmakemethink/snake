@@ -1,6 +1,6 @@
-const rowsAndCols = 30;
-const blockSize = 20;
-const maxFoodAtOneTime = 1;
+const rowsAndCols = 15;
+const blockSize = 30;
+const maxFoodAtOneTime = 3;
 
 const KEY_CODE = {
   ARROW_LEFT: 37,

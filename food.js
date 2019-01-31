@@ -11,8 +11,8 @@ const food = {
   },
 
   generatePiece: () => {
-    const randomX = Math.round(Math.random() * rowsAndCols - 1);
-    const randomY = Math.round(Math.random() * rowsAndCols - 1);
+    const randomX = Math.floor(Math.random() * rowsAndCols);
+    const randomY = Math.floor(Math.random() * rowsAndCols);
     food.map[randomX] = {
       ...food.map[randomX],
       [randomY]: 'normal',
