@@ -1,3 +1,7 @@
+const rowsAndCols = 30;
+const blockSize = 20;
+const maxFoodAtOneTime = 1;
+
 const KEY_CODE = {
   ARROW_LEFT: 37,
   ARROW_UP: 38,
@@ -11,3 +15,5 @@ const DIRECTION = {
   RIGHT: [1, 0],
   DOWN: [0, 1],
 }
+
+let speed = 200;
